@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a39ee9204ee349c2a4d0ac049c1c020d" Name="Diagram1">
+        <EntityTypeShape EntityType="NhaThuocModel.ChiTietDP" Width="1.5" PointX="7.625" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.ChiTietHD" Width="1.5" PointX="5.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.ChiTietPN" Width="1.5" PointX="7.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.DuocPham" Width="1.5" PointX="7.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.HoaDon" Width="1.5" PointX="2.875" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.KhachHang" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.Loai" Width="1.5" PointX="5.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.Nguoi" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.NhaCungCap" Width="1.5" PointX="0.5" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.NhanVien" Width="1.5" PointX="0.5" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NhaThuocModel.PhieuNhap" Width="1.5" PointX="4.5" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="NhaThuocModel.FK__ChiTietDP__MaDP__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__ChiTietDP__MaLoa__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__ChiTietHD__MaDP__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__ChiTietHD__MaHD__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__ChiTietPN__MaDP__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__ChiTietPN__MaPN__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__HoaDon__MaKH__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__HoaDon__MaNV__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__KhachHang__MaNg__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__NhanVien__MaNg__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__PhieuNhap__MaNCC__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="NhaThuocModel.FK__PhieuNhap__MaNV__5441852A" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
